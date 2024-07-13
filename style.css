@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Petrona", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+:root{
+    --primary-color: #f5f5f5;
+    --secondary-color: #000000;
+    --brand-color: #fcc302;
+    --sub-brand: #00bec9;
+}
+
+/* header section start */
+.navbar{
+    background-color: #daac00;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 18px;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+::placeholder{
+    color: white !important;
+}
+.navbar form input[type=text]{
+    border: 1px solid #ccc;
+    border: none;
+    outline: none;
+    background-color: #fcc302;
+    color: white;
+    height: 36px;
+}
+.navbar form input[type=text]:focus{
+    outline: navy;
+    border-color: red !important;
+}
+.navbar form button{
+    border: none;
+    outline: none;
+    background-color: var(--sub-brand);
+    color: var(--primary-color);
+    padding: 0 12px;
+    margin-left: -5px;
+}
+/*----Hero--*/
+.hero-section{
+    background-color: var(--brand-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    padding-top: 64px;
+}
+.main-div h1{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.main-div p{
+    color: white;
+}
+.main-div button:first-of-type{
+    background-color: var(--sub-brand);
+    color: var(--primary-color);
+    border: none;
+    outline: none;
+    padding: 10px 18px;
+}
+.main-div button{
+    color: var(--primary-color);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 9px 18px;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+}
+.main-div button:hover{
+    background-color: var(--sub-brand);
+    border: none;
+    transition: all 0.4s ease;
+}
+/*--play-section--*/
+.play-section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.btn{
+    background-color: var(--brand-color);
+    color: var(--primary-color);
+    border: none;
+    outline: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: var(--sub-brand);
+    color: rgb(248, 243, 243);
+    transition: all 0.4s ease;
+}
+.play-img {
+    position: relative; /* Make sure the parent container is positioned */  
+    width: 100%;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gradiant{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.gradiant i{
+    font-size: 24px;
+    background-color: var(--primary-color);
+    padding: 16px 20px;
+    border-radius: 100%;
+    color: black;
+}
+.play-img img{
+    /* position: absolute; */
+    width: 464px;
+    height: 356px;
+    background-position: center;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+/* .play-img::before {
+    content: '';
+    width: 5px;
+    height: 45%; 
+    display: block;
+    border-right: 23px solid var(--brand-color);
+    position: absolute;
+    left: 22px;
+    bottom: -78px; 
+}
+.play-img::after{
+    content: '';
+    width: 30%;
+    display: block;
+    border-bottom: 23px solid var(--brand-color);
+    position: absolute;
+    left: 42px;
+    bottom: -78px;
+} */
+
+/*----vaccination-section--*/
+.vaccination-section{
+    background-color: var(--brand-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    color: var(--primary-color);
+}
+.heading h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.card-img-top{
+    border: 4px solid var(--primary-color);
+}
+/*-----animals-lover-----*/
+.animals-lover{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.right-section h1{
+    font-size: 600;
+}
+/*---buy-now---*/
+.buy-now{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-color: var(--brand-color);
+    color: var(--primary-color);
+}
+.buy{
+    background-color: var(--sub-brand);
+    padding: 8px 25px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-weight: 550;
+}
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.price-original {
+    text-decoration: line-through;
+    color: #2e2e2e;
+    margin-right: 10px;
+}
+/*----team-----*/
+.team{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 960px;
+}
+.social i{
+    font-size: 12px;
+    color: var(--primary-color);
+    background-color: var(--brand-color);
+    padding: 12px 14px;
+    border-radius: 50px;
+    margin: 0 3px;
+}
+.counter{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/counter-bg.png);
+    height: 575px;
+    /* background-position: center;
+    background-size: cover;
+    object-fit: contain; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .hero-section{
+        height: auto;
+    }
+    .vaccination-section{
+        height: auto;
+    }
+    .play-section{
+        height: auto;
+    }
+    .animals-lover{
+    height: auto;
+    }
+    .right-section{
+        margin-top: 50px;
+    }
+    .buy-now{
+        height: auto;
+    }
+    .team{
+        height: auto;
+    }
+}
